@@ -1,0 +1,27 @@
+base_control
+/home/prox/motion_ws/devel/.private/base_control/cmake.lock /home/prox/motion_ws/devel/./cmake.lock
+/home/prox/motion_ws/devel/.private/base_control/share/gennodejs/ros/base_control/_index.js /home/prox/motion_ws/devel/share/gennodejs/ros/base_control/_index.js
+/home/prox/motion_ws/devel/.private/base_control/share/gennodejs/ros/base_control/msg/Winkel.js /home/prox/motion_ws/devel/share/gennodejs/ros/base_control/msg/Winkel.js
+/home/prox/motion_ws/devel/.private/base_control/share/gennodejs/ros/base_control/msg/_index.js /home/prox/motion_ws/devel/share/gennodejs/ros/base_control/msg/_index.js
+/home/prox/motion_ws/devel/.private/base_control/share/gennodejs/ros/base_control/msg/base_wheel_vel.js /home/prox/motion_ws/devel/share/gennodejs/ros/base_control/msg/base_wheel_vel.js
+/home/prox/motion_ws/devel/.private/base_control/share/roseus/ros/base_control/manifest.l /home/prox/motion_ws/devel/share/roseus/ros/base_control/manifest.l
+/home/prox/motion_ws/devel/.private/base_control/share/roseus/ros/base_control/msg/Winkel.l /home/prox/motion_ws/devel/share/roseus/ros/base_control/msg/Winkel.l
+/home/prox/motion_ws/devel/.private/base_control/share/roseus/ros/base_control/msg/base_wheel_vel.l /home/prox/motion_ws/devel/share/roseus/ros/base_control/msg/base_wheel_vel.l
+/home/prox/motion_ws/devel/.private/base_control/share/common-lisp/ros/base_control/msg/Winkel.lisp /home/prox/motion_ws/devel/share/common-lisp/ros/base_control/msg/Winkel.lisp
+/home/prox/motion_ws/devel/.private/base_control/share/common-lisp/ros/base_control/msg/_package.lisp /home/prox/motion_ws/devel/share/common-lisp/ros/base_control/msg/_package.lisp
+/home/prox/motion_ws/devel/.private/base_control/share/common-lisp/ros/base_control/msg/_package_base_wheel_vel.lisp /home/prox/motion_ws/devel/share/common-lisp/ros/base_control/msg/_package_base_wheel_vel.lisp
+/home/prox/motion_ws/devel/.private/base_control/share/common-lisp/ros/base_control/msg/base_control-msg.asd /home/prox/motion_ws/devel/share/common-lisp/ros/base_control/msg/base_control-msg.asd
+/home/prox/motion_ws/devel/.private/base_control/share/common-lisp/ros/base_control/msg/_package_Winkel.lisp /home/prox/motion_ws/devel/share/common-lisp/ros/base_control/msg/_package_Winkel.lisp
+/home/prox/motion_ws/devel/.private/base_control/share/common-lisp/ros/base_control/msg/base_wheel_vel.lisp /home/prox/motion_ws/devel/share/common-lisp/ros/base_control/msg/base_wheel_vel.lisp
+/home/prox/motion_ws/devel/.private/base_control/share/base_control/cmake/base_control-msg-extras.cmake /home/prox/motion_ws/devel/share/base_control/cmake/base_control-msg-extras.cmake
+/home/prox/motion_ws/devel/.private/base_control/share/base_control/cmake/base_controlConfig.cmake /home/prox/motion_ws/devel/share/base_control/cmake/base_controlConfig.cmake
+/home/prox/motion_ws/devel/.private/base_control/share/base_control/cmake/base_control-msg-paths.cmake /home/prox/motion_ws/devel/share/base_control/cmake/base_control-msg-paths.cmake
+/home/prox/motion_ws/devel/.private/base_control/share/base_control/cmake/base_controlConfig-version.cmake /home/prox/motion_ws/devel/share/base_control/cmake/base_controlConfig-version.cmake
+/home/prox/motion_ws/devel/.private/base_control/lib/pkgconfig/base_control.pc /home/prox/motion_ws/devel/lib/pkgconfig/base_control.pc
+/home/prox/motion_ws/devel/.private/base_control/lib/python3/dist-packages/base_control/__init__.py /home/prox/motion_ws/devel/lib/python3/dist-packages/base_control/__init__.py
+/home/prox/motion_ws/devel/.private/base_control/lib/python3/dist-packages/base_control/msg/_Winkel.py /home/prox/motion_ws/devel/lib/python3/dist-packages/base_control/msg/_Winkel.py
+/home/prox/motion_ws/devel/.private/base_control/lib/python3/dist-packages/base_control/msg/__init__.py /home/prox/motion_ws/devel/lib/python3/dist-packages/base_control/msg/__init__.py
+/home/prox/motion_ws/devel/.private/base_control/lib/python3/dist-packages/base_control/msg/_base_wheel_vel.py /home/prox/motion_ws/devel/lib/python3/dist-packages/base_control/msg/_base_wheel_vel.py
+/home/prox/motion_ws/devel/.private/base_control/lib/base_control/base_motor_controller /home/prox/motion_ws/devel/lib/base_control/base_motor_controller
+/home/prox/motion_ws/devel/.private/base_control/include/base_control/base_wheel_vel.h /home/prox/motion_ws/devel/include/base_control/base_wheel_vel.h
+/home/prox/motion_ws/devel/.private/base_control/include/base_control/Winkel.h /home/prox/motion_ws/devel/include/base_control/Winkel.h

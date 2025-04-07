@@ -1,0 +1,11 @@
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:[m[K In member function ‘[01m[Kvoid Controller::startControlLoop()[m[K’:
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:407:10:[m[K [01;31m[Kerror: [m[K‘[01m[KUpdate[m[K’ was not declared in this scope
+  407 |          [01;31m[KUpdate[m[K control effort
+      |          [01;31m[K^~~~~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:413:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kcmd_Vx[m[K’ was not declared in this scope; did you mean ‘[01m[Kcmd_Vy[m[K’?
+  413 |          update_wheel_speeds([01;31m[Kcmd_Vx[m[K, cmd_Vy, cmd_Wz);
+      |                              [01;31m[K^~~~~~[m[K
+      |                              [32m[Kcmd_Vy[m[K
+make[2]: *** [CMakeFiles/motion_control_start.dir/build.make:63: CMakeFiles/motion_control_start.dir/src/motion_control.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:196: CMakeFiles/motion_control_start.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,7 @@
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:[m[K In member function ‘[01m[Kfloat PID::update(float)[m[K’:
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:256:18:[m[K [01;31m[Kerror: [m[K‘[01m[Koutput_limit_[m[K’ was not declared in this scope
+  256 |     if (output > [01;31m[Koutput_limit_[m[K) {
+      |                  [01;31m[K^~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/motion_control_start.dir/build.make:63: CMakeFiles/motion_control_start.dir/src/motion_control.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:196: CMakeFiles/motion_control_start.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/prox/motion_ws/devel/.private/motion_control/setup.sh

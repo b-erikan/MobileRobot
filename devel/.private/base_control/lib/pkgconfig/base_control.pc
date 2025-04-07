@@ -1,0 +1,8 @@
+prefix=/home/prox/motion_ws/devel/.private/base_control
+
+Name: base_control
+Description: Description of base_control
+Version: 0.0.0
+Cflags: -I/home/prox/motion_ws/devel/.private/base_control/include -I/home/prox/motion_ws/src/base_control/include
+Libs: -L${prefix}/lib 
+Requires: roscpp rospy std_msgs message_runtime

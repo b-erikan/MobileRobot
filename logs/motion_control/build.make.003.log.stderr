@@ -1,0 +1,323 @@
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:4:1:[m[K [01;31m[Kerror: [m[K‘[01m[KMPC[m[K’ does not name a type
+    4 | [01;31m[KMPC[m[K::MPC()
+      | [01;31m[K^~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:24:1:[m[K [01;31m[Kerror: [m[K‘[01m[KMPC[m[K’ does not name a type
+   24 | [01;31m[KMPC[m[K::~MPC() {}
+      | [01;31m[K^~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:26:6:[m[K [01;31m[Kerror: [m[K‘[01m[KMPC[m[K’ has not been declared
+   26 | void [01;31m[KMPC[m[K::setWeights(std::vector<double> weights)
+      |      [01;31m[K^~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:26:6:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[KsetWeights[m[K’ declared void
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:26:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kvector[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   26 | void MPC::setWeights(std::[01;31m[Kvector[m[K<double> weights)
+      |                           [01;31m[K^~~~~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:2:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::vector[m[K’ is defined in header ‘[01m[K<vector>[m[K’; did you forget to ‘[01m[K#include <vector>[m[K’?
+    1 | #include "motion_controller/motion_control.h"
+  +++ |+[32m[K#include <vector>[m[K
+    2 | 
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:26:34:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kdouble[m[K’
+   26 | void MPC::setWeights(std::vector<[01;31m[Kdouble[m[K> weights)
+      |                                  [01;31m[K^~~~~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:47:1:[m[K [01;31m[Kerror: [m[K‘[01m[KFunction[m[K’ does not name a type; did you mean ‘[01m[Kunion[m[K’?
+   47 | [01;31m[KFunction[m[K MPC::setSystemModel()
+      | [01;31m[K^~~~~~~~[m[K
+      | [32m[Kunion[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:96:6:[m[K [01;31m[Kerror: [m[K‘[01m[KMPC[m[K’ has not been declared
+   96 | bool [01;31m[KMPC[m[K::optimize(Eigen::VectorXd current_states, Eigen::MatrixXd desired_states)
+      |      [01;31m[K^~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:96:20:[m[K [01;31m[Kerror: [m[K‘[01m[KEigen[m[K’ has not been declared
+   96 | bool MPC::optimize([01;31m[KEigen[m[K::VectorXd current_states, Eigen::MatrixXd desired_states)
+      |                    [01;31m[K^~~~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:96:52:[m[K [01;31m[Kerror: [m[K‘[01m[KEigen[m[K’ has not been declared
+   96 | bool MPC::optimize(Eigen::VectorXd current_states, [01;31m[KEigen[m[K::MatrixXd desired_states)
+      |                                                    [01;31m[K^~~~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:96:82:[m[K [01;31m[Kerror: [m[Kexpression list treated as compound expression in initializer [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   96 | bool MPC::optimize(Eigen::VectorXd current_states, Eigen::MatrixXd desired_states[01;31m[K)[m[K
+      |                                                                                  [01;31m[K^[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:207:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kvector[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a template type
+  207 | std::[01;31m[Kvector[m[K<double> MPC::getPredictU()
+      |      [01;31m[K^~~~~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:207:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::vector[m[K’ is defined in header ‘[01m[K<vector>[m[K’; did you forget to ‘[01m[K#include <vector>[m[K’?
+  207 | [01;36m[Kstd[m[K::vector<double> MPC::getPredictU()
+      | [01;36m[K^~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:222:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kvector[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a template type
+  222 | std::[01;31m[Kvector[m[K<double> MPC::getPredictX()
+      |      [01;31m[K^~~~~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:222:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::vector[m[K’ is defined in header ‘[01m[K<vector>[m[K’; did you forget to ‘[01m[K#include <vector>[m[K’?
+  222 | [01;36m[Kstd[m[K::vector<double> MPC::getPredictX()
+      | [01;36m[K^~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:240:5:[m[K [01;31m[Kerror: [m[K‘[01m[KMPC[m[K’ has not been declared
+  240 | int [01;31m[KMPC[m[K::getHorizon(){
+      |     [01;31m[K^~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:[m[K In function ‘[01m[Kint getHorizon()[m[K’:
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:241:12:[m[K [01;31m[Kerror: [m[K‘[01m[KN_[m[K’ was not declared in this scope
+  241 |     return [01;31m[KN_[m[K;
+      |            [01;31m[K^~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:[m[K At global scope:
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:245:1:[m[K [01;31m[Kerror: [m[K‘[01m[KPID[m[K’ does not name a type
+  245 | [01;31m[KPID[m[K::PID(float kp, float ki, float kd, float dt, float max_output_sqr)
+      | [01;31m[K^~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:248:7:[m[K [01;31m[Kerror: [m[K‘[01m[KPID[m[K’ has not been declared
+  248 | float [01;31m[KPID[m[K::update(float error)
+      |       [01;31m[K^~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:[m[K In function ‘[01m[Kfloat update(float)[m[K’:
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:261:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kintegral_[m[K’ was not declared in this scope
+  261 |     [01;31m[Kintegral_[m[K += error * dt_;
+      |     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:261:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kdt_[m[K’ was not declared in this scope
+  261 |     integral_ += error * [01;31m[Kdt_[m[K;
+      |                          [01;31m[K^~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:262:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kderivative_[m[K’ was not declared in this scope
+  262 |     [01;31m[Kderivative_[m[K = (error - prev_error_) / dt_;
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:262:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kprev_error_[m[K’ was not declared in this scope
+  262 |     derivative_ = (error - [01;31m[Kprev_error_[m[K) / dt_;
+      |                            [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:263:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kkp_[m[K’ was not declared in this scope
+  263 |     float output = [01;31m[Kkp_[m[K * error + ki_ * integral_ + kd_ * derivative_;
+      |                    [01;31m[K^~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:263:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kki_[m[K’ was not declared in this scope
+  263 |     float output = kp_ * error + [01;31m[Kki_[m[K * integral_ + kd_ * derivative_;
+      |                                  [01;31m[K^~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:263:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kkd_[m[K’ was not declared in this scope
+  263 |     float output = kp_ * error + ki_ * integral_ + [01;31m[Kkd_[m[K * derivative_;
+      |                                                    [01;31m[K^~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:265:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kprev_output_[m[K’ was not declared in this scope
+  265 |     [01;31m[Kprev_output_[m[K = output;
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:[m[K At global scope:
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:270:1:[m[K [01;31m[Kerror: [m[K‘[01m[KController[m[K’ does not name a type
+  270 | [01;31m[KController[m[K::Controller() : vx_meas(0.0), vy_meas(0.0), wz_meas(0.0), px_meas(0.0), py_meas(0.0), theta_meas(0.0)
+      | [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:277:6:[m[K [01;31m[Kerror: [m[K‘[01m[KController[m[K’ has not been declared
+  277 | void [01;31m[KController[m[K::stateEstimatorCallback(const nav_msgs::Odometry::ConstPtr &msg)
+      |      [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:277:47:[m[K [01;31m[Kerror: [m[K‘[01m[Knav_msgs[m[K’ does not name a type
+  277 | void Controller::stateEstimatorCallback(const [01;31m[Knav_msgs[m[K::Odometry::ConstPtr &msg)
+      |                                               [01;31m[K^~~~~~~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:277:65:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+  277 | void Controller::stateEstimatorCallback(const nav_msgs::Odometry[01;31m[K::[m[KConstPtr &msg)
+      |                                                                 [01;31m[K^~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:277:65:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+  277 | void Controller::stateEstimatorCallback[34m[K([m[Kconst nav_msgs::Odometry[01;31m[K:[m[K[32m[K:[m[KConstPtr &msg)
+      |                                        [34m[K~[m[K                        [01;31m[K^[m[K[32m[K~[m[K
+      |                                                                 [32m[K)[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:277:65:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K::[m[K’ token
+  277 | void Controller::stateEstimatorCallback(const nav_msgs::Odometry[01;31m[K::[m[KConstPtr &msg)
+      |                                                                 [01;31m[K^~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:296:6:[m[K [01;31m[Kerror: [m[K‘[01m[KController[m[K’ has not been declared
+  296 | void [01;31m[KController[m[K::update_wheel_speeds(float vx, float vy, float wz)
+      |      [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:[m[K In function ‘[01m[Kvoid update_wheel_speeds(float, float, float)[m[K’:
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:298:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kbase_control[m[K’ has not been declared
+  298 |     [01;31m[Kbase_control[m[K::base_wheel_vel wheel_speed_command;
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:313:9:[m[K [01;31m[Kerror: [m[K‘[01m[KROS_ERROR[m[K’ was not declared in this scope
+  313 |         [01;31m[KROS_ERROR[m[K("Wheel speed limit exceeded!!\n\n Front Left Wheel: %.2f\n Front Right Wheel: %.2f\n Rear Left Wheel:%.2f\n Rear Right Wheel: %.2f\n", w1, w2, w3, w4);
+      |         [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:317:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kwheel_speed_command[m[K’ was not declared in this scope
+  317 |     [01;31m[Kwheel_speed_command[m[K.w1 = w1;
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:323:5:[m[K [01;31m[Kerror: [m[K‘[01m[KVelCmdPub[m[K’ was not declared in this scope
+  323 |     [01;31m[KVelCmdPub[m[K.publish(wheel_speed_command);
+      |     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:[m[K At global scope:
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:326:6:[m[K [01;31m[Kerror: [m[K‘[01m[KController[m[K’ has not been declared
+  326 | void [01;31m[KController[m[K::startControlLoop()
+      |      [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:[m[K In function ‘[01m[Kvoid startControlLoop()[m[K’:
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:328:5:[m[K [01;31m[Kerror: [m[K‘[01m[KPID[m[K’ was not declared in this scope
+  328 |     [01;31m[KPID[m[K PID_Vx(1, 0.1, 0.05, dt, 2);
+      |     [01;31m[K^~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:329:8:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[KPID_Vy[m[K’
+  329 |     PID[01;31m[K [m[K[32m[KPID_Vy[m[K(0.01, 0.01, 0.01, dt, 2);
+      |        [01;31m[K^[m[K[32m[K~~~~~~[m[K
+      |        [32m[K;[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:330:8:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[KPID_Wz[m[K’
+  330 |     PID[01;31m[K [m[K[32m[KPID_Wz[m[K(3, 1.2, 0, dt, 3);
+      |        [01;31m[K^[m[K[32m[K~~~~~~[m[K
+      |        [32m[K;[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:331:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktrajectory_planner[m[K’ was not declared in this scope
+  331 |     [01;31m[Ktrajectory_planner[m[K = std::make_unique<MPC>();
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:331:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kmake_unique[m[K’ is not a member of ‘[01m[Kstd[m[K’
+  331 |     trajectory_planner = std::[01;31m[Kmake_unique[m[K<MPC>();
+      |                               [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:2:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::make_unique[m[K’ is defined in header ‘[01m[K<memory>[m[K’; did you forget to ‘[01m[K#include <memory>[m[K’?
+    1 | #include "motion_controller/motion_control.h"
+  +++ |+[32m[K#include <memory>[m[K
+    2 | 
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:331:43:[m[K [01;31m[Kerror: [m[K‘[01m[KMPC[m[K’ was not declared in this scope
+  331 |     trajectory_planner = std::make_unique<[01;31m[KMPC[m[K>();
+      |                                           [01;31m[K^~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:331:48:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+  331 |     trajectory_planner = std::make_unique<MPC>([01;31m[K)[m[K;
+      |                                                [01;31m[K^[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:334:5:[m[K [01;31m[Kerror: [m[K‘[01m[KEigen[m[K’ has not been declared
+  334 |     [01;31m[KEigen[m[K::MatrixXd desired_states(6, trajectory_planner->getHorizon() + 1);
+      |     [01;31m[K^~~~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:337:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kdesired_states[m[K’ was not declared in this scope
+  337 |         [01;31m[Kdesired_states[m[K(0, i) = 1;
+      |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:345:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+  345 |     [01;31m[Kros[m[K::Rate rate(1 / dt);
+      |     [01;31m[K^~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:346:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+  346 |     while ([01;31m[Kros[m[K::ok())
+      |            [01;31m[K^~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:350:9:[m[K [01;31m[Kerror: [m[K‘[01m[KEigen[m[K’ has not been declared
+  350 |         [01;31m[KEigen[m[K::VectorXd current_state(6);
+      |         [01;31m[K^~~~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:351:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_state[m[K’ was not declared in this scope
+  351 |         [01;31m[Kcurrent_state[m[K << px_meas, py_meas, theta_meas, vx_meas, vy_meas, wz_meas;
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:351:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kpx_meas[m[K’ was not declared in this scope
+  351 |         current_state << [01;31m[Kpx_meas[m[K, py_meas, theta_meas, vx_meas, vy_meas, wz_meas;
+      |                          [01;31m[K^~~~~~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:351:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kpy_meas[m[K’ was not declared in this scope
+  351 |         current_state << px_meas, [01;31m[Kpy_meas[m[K, theta_meas, vx_meas, vy_meas, wz_meas;
+      |                                   [01;31m[K^~~~~~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:351:44:[m[K [01;31m[Kerror: [m[K‘[01m[Ktheta_meas[m[K’ was not declared in this scope
+  351 |         current_state << px_meas, py_meas, [01;31m[Ktheta_meas[m[K, vx_meas, vy_meas, wz_meas;
+      |                                            [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:351:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kvx_meas[m[K’ was not declared in this scope; did you mean ‘[01m[Kvx_des[m[K’?
+  351 |         current_state << px_meas, py_meas, theta_meas, [01;31m[Kvx_meas[m[K, vy_meas, wz_meas;
+      |                                                        [01;31m[K^~~~~~~[m[K
+      |                                                        [32m[Kvx_des[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:351:65:[m[K [01;31m[Kerror: [m[K‘[01m[Kvy_meas[m[K’ was not declared in this scope; did you mean ‘[01m[Kvy_des[m[K’?
+  351 |         current_state << px_meas, py_meas, theta_meas, vx_meas, [01;31m[Kvy_meas[m[K, wz_meas;
+      |                                                                 [01;31m[K^~~~~~~[m[K
+      |                                                                 [32m[Kvy_des[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:351:74:[m[K [01;31m[Kerror: [m[K‘[01m[Kwz_meas[m[K’ was not declared in this scope; did you mean ‘[01m[Kwz_des[m[K’?
+  351 |         current_state << px_meas, py_meas, theta_meas, vx_meas, vy_meas, [01;31m[Kwz_meas[m[K;
+      |                                                                          [01;31m[K^~~~~~~[m[K
+      |                                                                          [32m[Kwz_des[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:355:53:[m[K [01;31m[Kerror: [m[K‘[01m[Kdesired_states[m[K’ was not declared in this scope
+  355 |         trajectory_planner->optimize(current_state, [01;31m[Kdesired_states[m[K);
+      |                                                     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:356:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kvector[m[K’ is not a member of ‘[01m[Kstd[m[K’
+  356 |         std::[01;31m[Kvector[m[K<double> predicted_x = trajectory_planner->getPredictX();
+      |              [01;31m[K^~~~~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:356:14:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::vector[m[K’ is defined in header ‘[01m[K<vector>[m[K’; did you forget to ‘[01m[K#include <vector>[m[K’?
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:356:21:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kdouble[m[K’
+  356 |         std::vector<[01;31m[Kdouble[m[K> predicted_x = trajectory_planner->getPredictX();
+      |                     [01;31m[K^~~~~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:357:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kvector[m[K’ is not a member of ‘[01m[Kstd[m[K’
+  357 |         std::[01;31m[Kvector[m[K<double> predicted_u = trajectory_planner->getPredictU(); // Get the first control inputs
+      |              [01;31m[K^~~~~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:357:14:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::vector[m[K’ is defined in header ‘[01m[K<vector>[m[K’; did you forget to ‘[01m[K#include <vector>[m[K’?
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:357:21:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kdouble[m[K’
+  357 |         std::vector<[01;31m[Kdouble[m[K> predicted_u = trajectory_planner->getPredictU(); // Get the first control inputs
+      |                     [01;31m[K^~~~~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:360:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ is not a member of ‘[01m[Kstd[m[K’
+  360 |         std::[01;31m[Kcout[m[K << "\n===== MPC Predictions =====" << std::endl;
+      |              [01;31m[K^~~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:2:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::cout[m[K’ is defined in header ‘[01m[K<iostream>[m[K’; did you forget to ‘[01m[K#include <iostream>[m[K’?
+    1 | #include "motion_controller/motion_control.h"
+  +++ |+[32m[K#include <iostream>[m[K
+    2 | 
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:360:62:[m[K [01;31m[Kerror: [m[K‘[01m[Kendl[m[K’ is not a member of ‘[01m[Kstd[m[K’
+  360 |         std::cout << "\n===== MPC Predictions =====" << std::[01;31m[Kendl[m[K;
+      |                                                              [01;31m[K^~~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:2:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::endl[m[K’ is defined in header ‘[01m[K<ostream>[m[K’; did you forget to ‘[01m[K#include <ostream>[m[K’?
+    1 | #include "motion_controller/motion_control.h"
+  +++ |+[32m[K#include <ostream>[m[K
+    2 | 
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:363:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ is not a member of ‘[01m[Kstd[m[K’
+  363 |         std::[01;31m[Kcout[m[K << "\nPredicted Control Inputs (U):" << std::endl;
+      |              [01;31m[K^~~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:363:14:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::cout[m[K’ is defined in header ‘[01m[K<iostream>[m[K’; did you forget to ‘[01m[K#include <iostream>[m[K’?
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:363:64:[m[K [01;31m[Kerror: [m[K‘[01m[Kendl[m[K’ is not a member of ‘[01m[Kstd[m[K’
+  363 |         std::cout << "\nPredicted Control Inputs (U):" << std::[01;31m[Kendl[m[K;
+      |                                                                [01;31m[K^~~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:363:64:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::endl[m[K’ is defined in header ‘[01m[K<ostream>[m[K’; did you forget to ‘[01m[K#include <ostream>[m[K’?
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:364:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ is not a member of ‘[01m[Kstd[m[K’
+  364 |         std::[01;31m[Kcout[m[K << "Total U entries: " << predicted_x.size() << std::endl;
+      |              [01;31m[K^~~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:364:14:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::cout[m[K’ is defined in header ‘[01m[K<iostream>[m[K’; did you forget to ‘[01m[K#include <iostream>[m[K’?
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:364:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kpredicted_x[m[K’ was not declared in this scope
+  364 |         std::cout << "Total U entries: " << [01;31m[Kpredicted_x[m[K.size() << std::endl;
+      |                                             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:364:72:[m[K [01;31m[Kerror: [m[K‘[01m[Kendl[m[K’ is not a member of ‘[01m[Kstd[m[K’
+  364 |         std::cout << "Total U entries: " << predicted_x.size() << std::[01;31m[Kendl[m[K;
+      |                                                                        [01;31m[K^~~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:364:72:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::endl[m[K’ is defined in header ‘[01m[K<ostream>[m[K’; did you forget to ‘[01m[K#include <ostream>[m[K’?
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:365:14:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ was not declared in this scope
+  365 |         for ([01;31m[Ksize_t[m[K i = 0; i < predicted_u.size(); i += 3)
+      |              [01;31m[K^~~~~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:2:1:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+    1 | #include "motion_controller/motion_control.h"
+  +++ |+[32m[K#include <cstddef>[m[K
+    2 | 
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:365:28:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+  365 |         for (size_t i = 0; [01;31m[Ki[m[K < predicted_u.size(); i += 3)
+      |                            [01;31m[K^[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:365:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kpredicted_u[m[K’ was not declared in this scope
+  365 |         for (size_t i = 0; i < [01;31m[Kpredicted_u[m[K.size(); i += 3)
+      |                                [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:367:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ is not a member of ‘[01m[Kstd[m[K’
+  367 |             std::[01;31m[Kcout[m[K << "Time Step " << i / 3 << ": "
+      |                  [01;31m[K^~~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:367:18:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::cout[m[K’ is defined in header ‘[01m[K<iostream>[m[K’; did you forget to ‘[01m[K#include <iostream>[m[K’?
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:370:69:[m[K [01;31m[Kerror: [m[K‘[01m[Kendl[m[K’ is not a member of ‘[01m[Kstd[m[K’
+  370 |                       << ", w_ref = " << predicted_u[i + 2] << std::[01;31m[Kendl[m[K;
+      |                                                                     [01;31m[K^~~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:370:69:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::endl[m[K’ is defined in header ‘[01m[K<ostream>[m[K’; did you forget to ‘[01m[K#include <ostream>[m[K’?
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:374:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ is not a member of ‘[01m[Kstd[m[K’
+  374 |         std::[01;31m[Kcout[m[K << "\nPredicted States (X):" << std::endl;
+      |              [01;31m[K^~~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:374:14:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::cout[m[K’ is defined in header ‘[01m[K<iostream>[m[K’; did you forget to ‘[01m[K#include <iostream>[m[K’?
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:374:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kendl[m[K’ is not a member of ‘[01m[Kstd[m[K’
+  374 |         std::cout << "\nPredicted States (X):" << std::[01;31m[Kendl[m[K;
+      |                                                        [01;31m[K^~~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:374:56:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::endl[m[K’ is defined in header ‘[01m[K<ostream>[m[K’; did you forget to ‘[01m[K#include <ostream>[m[K’?
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:375:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ is not a member of ‘[01m[Kstd[m[K’
+  375 |         std::[01;31m[Kcout[m[K << "Total X entries: " << predicted_x.size() << std::endl;
+      |              [01;31m[K^~~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:375:14:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::cout[m[K’ is defined in header ‘[01m[K<iostream>[m[K’; did you forget to ‘[01m[K#include <iostream>[m[K’?
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:375:72:[m[K [01;31m[Kerror: [m[K‘[01m[Kendl[m[K’ is not a member of ‘[01m[Kstd[m[K’
+  375 |         std::cout << "Total X entries: " << predicted_x.size() << std::[01;31m[Kendl[m[K;
+      |                                                                        [01;31m[K^~~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:375:72:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::endl[m[K’ is defined in header ‘[01m[K<ostream>[m[K’; did you forget to ‘[01m[K#include <ostream>[m[K’?
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:376:14:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ was not declared in this scope
+  376 |         for ([01;31m[Ksize_t[m[K i = 0; i < predicted_x.size(); i += 6)
+      |              [01;31m[K^~~~~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:376:14:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:376:28:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+  376 |         for (size_t i = 0; [01;31m[Ki[m[K < predicted_x.size(); i += 6)
+      |                            [01;31m[K^[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:378:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ is not a member of ‘[01m[Kstd[m[K’
+  378 |             std::[01;31m[Kcout[m[K << "Time Step " << i / 6 << ": "
+      |                  [01;31m[K^~~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:378:18:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::cout[m[K’ is defined in header ‘[01m[K<iostream>[m[K’; did you forget to ‘[01m[K#include <iostream>[m[K’?
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:384:65:[m[K [01;31m[Kerror: [m[K‘[01m[Kendl[m[K’ is not a member of ‘[01m[Kstd[m[K’
+  384 |                       << ", w = " << predicted_x[i + 5] << std::[01;31m[Kendl[m[K;
+      |                                                                 [01;31m[K^~~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:384:65:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::endl[m[K’ is defined in header ‘[01m[K<ostream>[m[K’; did you forget to ‘[01m[K#include <ostream>[m[K’?
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:387:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ is not a member of ‘[01m[Kstd[m[K’
+  387 |         std::[01;31m[Kcout[m[K << "\n===== End of Predictions =====" << std::endl;
+      |              [01;31m[K^~~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:387:14:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::cout[m[K’ is defined in header ‘[01m[K<iostream>[m[K’; did you forget to ‘[01m[K#include <iostream>[m[K’?
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:387:65:[m[K [01;31m[Kerror: [m[K‘[01m[Kendl[m[K’ is not a member of ‘[01m[Kstd[m[K’
+  387 |         std::cout << "\n===== End of Predictions =====" << std::[01;31m[Kendl[m[K;
+      |                                                                 [01;31m[K^~~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:387:65:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::endl[m[K’ is defined in header ‘[01m[K<ostream>[m[K’; did you forget to ‘[01m[K#include <ostream>[m[K’?
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:406:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+  406 |         [01;31m[Kros[m[K::spinOnce();
+      |         [01;31m[K^~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:407:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krate[m[K’ was not declared in this scope
+  407 |         [01;31m[Krate[m[K.sleep();
+      |         [01;31m[K^~~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:414:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+  414 |     [01;31m[Kros[m[K::init(argc, argv, "pid_test");
+      |     [01;31m[K^~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:416:5:[m[K [01;31m[Kerror: [m[K‘[01m[KController[m[K’ was not declared in this scope
+  416 |     [01;31m[KController[m[K controller;
+      |     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/prox/motion_ws/src/motion_controller/src/motion_control.cpp:417:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontroller[m[K’ was not declared in this scope
+  417 |     [01;31m[Kcontroller[m[K.startControlLoop();
+      |     [01;31m[K^~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/motion_control_start.dir/build.make:63: CMakeFiles/motion_control_start.dir/src/motion_control.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:196: CMakeFiles/motion_control_start.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

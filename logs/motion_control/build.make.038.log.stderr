@@ -1,0 +1,6 @@
+/usr/bin/ld: CMakeFiles/motion_control_start.dir/src/motion_control.cpp.o: in function `Controller::startControlLoop()':
+motion_control.cpp:(.text+0x7152): undefined reference to `Controller::printWaypoints(std::vector<double, std::allocator<double> > const&, std::vector<double, std::allocator<double> > const&, std::vector<double, std::allocator<double> > const&)'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/motion_control_start.dir/build.make:102: /home/prox/motion_ws/devel/.private/motion_control/lib/motion_control/motion_control_start] Error 1
+make[1]: *** [CMakeFiles/Makefile2:196: CMakeFiles/motion_control_start.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

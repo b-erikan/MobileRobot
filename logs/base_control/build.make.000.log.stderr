@@ -1,0 +1,4 @@
+[01m[K/home/prox/motion_ws/src/base_control/src/mecaBox.cpp:[m[K In member function ‘[01m[Kint mecaBox::stop()[m[K’:
+[01m[K/home/prox/motion_ws/src/base_control/src/mecaBox.cpp:170:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+  170 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
